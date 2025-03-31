@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta property="og:title" content="SVSky - A Skyblock Mod">
-	<meta property="og:description" content="Experience a whole new level of Skyblock with SVSky! Download the latest version now!">
-	<meta property="og:image" content="favicon.png">
+    <meta property="og:title" content="SVSky - A Skyblock Mod">
+    <meta property="og:description" content="Experience a whole new level of Skyblock with SVSky! Download the latest version now!">
+    <meta property="og:image" content="favicon.png">
     <title>SVSky - A Skyblock Mod</title>
-	<link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -16,10 +16,20 @@
             color: white;
             margin: 0;
             padding: 10px;
+            display: flex;
+            justify-content: center;
         }
         .container {
-            margin-top: 0px;
+            flex: 1;
             padding: 20px;
+            text-align: left;
+        }
+        .downloads {
+            width: 250px;
+            padding: 20px;
+            background-color: #2a2a2a;
+            border-radius: 10px;
+            margin-left: 20px;
         }
         h1 {
             font-size: 2.5em;
@@ -37,22 +47,32 @@
             border: none;
             cursor: pointer;
             margin-top: 30px;
-            margin-bottom: 40px;
             border-radius: 5px;
+            display: block;
+            text-align: center;
+            text-decoration: none;
         }
         .download-button:hover {
             background-color: black;
         }
-        .image-gallery {
-            margin-top: 50px;
-            display: flex;
-            justify-content: center;
-            gap: 30px;
+        .downloads h2 {
+            text-align: center;
+            font-size: 1.8em;
         }
-        .image-gallery img {
-            border-radius: 10px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-            width: 200px;
+        .downloads ul {
+            list-style: none;
+            padding: 0;
+        }
+        .downloads li {
+            margin: 15px 0;
+        }
+        .downloads a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .downloads a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -60,14 +80,16 @@
     <div class="container">
         <h1>SVSky - The Ultimate Skyblock Mod</h1>
         <p>Experience a whole new level of Skyblock with SVSky!</p>
-        <a href="" class="download-button">Coming Soon!</a>
-        
-        <div class="image-gallery">
-            <img src="favicon.png" alt="Feature 1">
-            <img src="https://tiermaker.com/images/templates/-hypixel-skyblock-resource-packs-pt-2-830965/8309651629307417.png" alt="Feature 2">
-            <img src="images/image3.png" alt="Feature 3">
-        </div>
+        <a href="#" class="download-button">Coming Soon!</a>
+    </div>
+    
+    <div class="downloads">
+        <h2>Downloads</h2>
+        <ul>
+            <li><a href="#">SVSky v1.0</a></li>
+            <li><a href="#">SVSky v1.1</a></li>
+            <li><a href="#">Older Versions</a></li>
+        </ul>
     </div>
 </body>
 </html>
-

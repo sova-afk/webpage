@@ -88,7 +88,7 @@ footer {
 }
 
 .footer-logo {
-    width: 50px; /* Adjust this to make it smaller */
+    width: 100px; /* Adjust this to make it smaller */
     height: auto;
     opacity: 0.8;
     transition: all 0.3s ease;

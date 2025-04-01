@@ -92,6 +92,21 @@ p {
     transition: transform 0.3s ease;
 }
 
-.page-logo:hover {
-    transform: scale(1.1); /* Adds slight zoom on hover */
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer-logo {
+    width: 50px; /* Adjust this to make it smaller */
+    height: auto;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
+.footer-logo:hover {
+    opacity: 1;
+    transform: scale(1.1);
 }

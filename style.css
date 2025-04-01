@@ -79,3 +79,19 @@ p {
 .downloads a:hover {
     text-decoration: underline;
 }
+/* Add these new styles to your CSS file */
+.logo-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.page-logo {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.page-logo:hover {
+    transform: scale(1.1); /* Adds slight zoom on hover */
+}

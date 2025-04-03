@@ -185,8 +185,23 @@ h1 {
     transform: scale(1.02);
 }
 
-.contact-icon {
-    width: 30px;
-    height: 30px;
+/* Replace the existing .contact-icon styles with these: */
+.contact-discord-icon {
+    width: 24px;  /* Adjust this value to make bigger/smaller */
+    height: 24px;  /* Keep same as width for square aspect ratio */
     object-fit: contain;
+    transition: transform 0.2s ease;
+}
+
+.contact-link:hover .contact-discord-icon {
+    transform: scale(1.1);  /* Subtle hover animation */
+}
+
+/* Keep the rest of your existing contact section styles */
+.contact-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;  /* Reduced gap for tighter spacing */
+    padding: 8px 16px;  /* Smaller padding */
+    font-size: 1rem;  /* Smaller text size */
 }

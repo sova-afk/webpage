@@ -16,16 +16,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header-content">
-    <p class="tagline">A Hypixel Skyblock Mod</p>
-    <div class="header-buttons">
-        <a href="https://discord.gg/au5JRsNucG" target="_blank" class="discord-button">
-            <img src="assets/images/discord.png" alt="Discord" class="discord-logo">
-        </a>
-        <a href="assets/releases/svsky-1.0.2.jar" class="download-button" id="downloadBtn">Download Latest</a>
-    </div>
-</div>
-</div>
+    <div class="header">
+        <div class="logo-title">
+            <img src="assets/images/favicon.png" alt="SVSky Logo" class="logo">
+            <h1>SVSky</h1>
+        </div>
+        <div class="header-content">
+            <p class="tagline">A Hypixel Skyblock Mod</p>
+            <a href="assets/releases/svsky-1.0.2.jar" class="download-button" id="downloadBtn">Download Latest</a>
+        </div>
     </div>
 
     <div class="main-content">
@@ -61,3 +60,11 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+This is my script.js:
+
+<script>
+  if (window.location.pathname.startsWith('/assets/images/')) {
+    window.location.href = '/';
+  }
+</script>

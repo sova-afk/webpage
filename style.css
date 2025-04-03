@@ -187,8 +187,8 @@ h1 {
 
 /* Replace the existing .contact-icon styles with these: */
 .contact-discord-icon {
-    width: 10px !important;  /* Adjust this value to make bigger/smaller */
-    height: 10px !important;  /* Keep same as width for square aspect ratio */
+    width: 20px !important;  /* Adjust this value to make bigger/smaller */
+    height: 20px !important;  /* Keep same as width for square aspect ratio */
     object-fit: contain;
     transition: transform 0.2s ease;
 }

@@ -1,0 +1,4 @@
+<Directory /directory_name/>
+Order Allow,Deny
+Deny from all
+</Directory>

@@ -169,7 +169,7 @@ h1 {
 
 .contact-link {
     display: flex;
-    align-items: center;
+    align-items: left;
     gap: 10px;
     color: var(--accent-color);
     text-decoration: none;
